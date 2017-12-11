@@ -1,0 +1,277 @@
+
+		else if(empty($imgFile)){
+			$errMSG = "Please Select Image File.";
+		}
+		else
+		{
+			$upload_dir = 'user_images/'; // upload directory
+	
+			$imgExt = strtolower(pathinfo($imgFile,PATHINFO_EXTENSION)); // get image extension
+		
+			// valid image extensions
+			$valid_extensions = array('jpeg', 'jpg', 'png', 'gif'); // valid extensions
+		
+			// rename uploading image
+			$userpic = rand(1000,1000000).".".$imgExt;
+				
+			// allow valid image file formats
+			if(in_array($imgExt, $valid_extensions)){			
+				// Check file size '5MB'
+				if($imgSize < 5000000)				{
+					move_uploaded_file($tmp_dir,$upload_dir.$userpic);
+				}
+				else{
+					$errMSG = "Sorry, your file is too large.";
+				}
+			}
+			else{
+				$errMSG = "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";		
+			}
+		}
+		
+
+		
+
+elseif (isset($_FILES['user_image']['name'])) {
+                // total files //
+                $count = count($_FILES['user_image']['name']);
+                // all uploads //
+                
+                for ($i = 0; $i < $count; $i++) {
+                    if ($_FILES['user_image']['error'][$i] == 0) {
+                        move_uploaded_file($_FILES['user_image']['tmp_name'][$i], 'user_images/$userpic' . $_FILES['user_image']['name'][$i]);
+                        
+                    }
+                }
+            }
+
+$brideName = $_POST['BrideName'];
+		$bridemother = $_POST['MotherName'];
+        $birdegrandfather = $_POST['GrandFatherName'];
+		$bridegrandmother = $_POST['GrandMotheName'];
+		$bridefrom = $_POST['groomFrom'];
+
+
+
+//groom 
+
+        $groomname = $_POST['GroomName'];
+		$groomfathername = $_POST['FatherName'];
+		$groommothername = $_POST['MotherName'];
+	    $groomgrandmother = $_POST['GrandFatherName'];
+		$groomgrandfather = $_POST['GrandmotherName'];
+	    $groomfrom = $_POST['From'];
+
+
+
+//others section
+
+		 $bannermessage = $_POST['BannerMessage'];
+
+		 $goodtitle = $_POST['GodTitle'];
+
+	     $parntmessage = $_POST['Parentmessage'];
+
+
+		 $InvitationMessage = $_POST['InvitationMessage'];
+		 $MarriagePlace = $_POST['MarriagePlace'];
+
+         $MarriagePlaceAddress = $_POST['MarriagePlaceaddress'];
+		 $Phoneone = $_POST['Phoneone'];
+		 $Phonetwo = $_POST['Phonetwo'];
+
+
+         $functionAddress = $_POST['FuctnionAddress'];
+         $HomeAddress = $_POST['HomeAddress'];
+
+
+
+
+		 $FamilyMemberTitle = $_POST['FamilyMemberTitle'];
+		 $FamilyMember1 = $_POST['FamilyMember1'];
+         $FamilyMember2 = $_POST['FamilyMember2'];
+         $FamilyMember3 = $_POST['FamilyMember3'];
+         $FamilyMember4 = $_POST['FamilyMember4'];
+         $FamilyMember5 = $_POST['FamilyMembers'];
+
+         $Email = $_POST['Email'];
+
+		
+		$imgFile = $_FILES['BrideImage']['name'];
+		$tmp_dir = $_FILES['BrideImage']['tmp_name'];
+		$imgSize = $_FILES['BrideImage']['size'];
+		
+
+	echo '<pre>';
+	print_r($_POST);
+	die;
+		
+
+		
+		// if no error occured, continue ....
+		// if(!isset($errMSG))
+		// {
+		// 	$stmt = $DB_con->prepare('INSERT INTO tbl_users(brideName,bridemother,birdegrandfather,bridegrandmother,bridefrom)
+
+
+		// 	 VALUES(:bride_name, :bridemother_name, :bridefather_Name, :bride_from)');
+
+
+		// 	$stmt->bindParam(':bride_name',$brideName);
+		// 	$stmt->bindParam(':bridemother_name',$bridemother);
+		// 	$stmt->bindParam(':bridefather_Name',$birdegrandfather);
+		// 	$stmt->bindParam(':bridegrandmother',$bridegrandmother);
+		// 	$stmt->bindParam(':bride_from',$bridefrom);
+		// 	if($stmt->execute())
+		// 	{
+		// 		$successMSG = "new record succesfully inserted ...";
+		// 		header("refresh:5;index.php"); // redirects image view page after 5 seconds.
+		// 	}
+		// 	else
+		// 	{
+		// 		$errMSG = "error while inserting....";
+		// 	}
+		// }
+
+		<?php
+
+    $Wedding_Date = $_POST['Wedding_Date']; 
+    $BrideName = $_POST['BrideName']; 
+    $FatherName = $_POST['FatherName'];
+    $MotherName = $_POST['MotherName']; 
+    $GrandFatherName = $_POST['GrandFatherName'];
+    $GrandMotheName = $_POST['GrandMotheName']; 
+    $groomFrom = $_POST['groomFrom']; 
+    $GroomName = $_POST['GroomName']; 
+    $GrandmotherName = $_POST['GrandmotherName']; 
+    $From = $_POST['From']; 
+    $BannerMessage = $_POST['BannerMessage']; 
+    $GodTitle = $_POST['GodTitle'];
+    $Parentmessage = $_POST['Parentmessage']; 
+    $InvitationMessage = $_POST['InvitationMessage'];
+    $MarriagePlace = $_POST['MarriagePlace']; 
+    $MarriagePlaceaddress = $_POST['MarriagePlaceaddress']; 
+    $Phonetwo = $_POST['Phonetwo']; 
+    $Phoneone = $_POST['Phoneone'] ;
++    $FunctionTitle = $_POST['FunctionTitle']; 
+   $Dayandate =  $_POST['Dayandate']; 
+   $time =  $_POST['time']; 
+   $FuctnionAddress =  $_POST['FuctnionAddress']; 
+   $HomeAddress =  $_POST['HomeAddress']; 
+   $FamilyMemberTitle =  $_POST['FamilyMemberTitle']; 
+   $FamilyMember1 =  $_POST['FamilyMember1']; 
+   $FamilyMember2 =  $_POST['FamilyMember2']; 
+   $FamilyMember3 =  $_POST['FamilyMember3']; 
+   $FamilyMember4 =  $_POST['FamilyMember4']; 
+   $FamilyMembers =  $_POST['FamilyMembers']; 
+   $Email =  $_POST['Email'];
+
+
+    
+          mysqli_query($connect,"INSERT INTO tbl_users ( 'bride_name','bridefather_Name','bridemother_name','bridegrand_fathername')
+		        VALUES ('$BrideName,$FatherName,$MotherName,$GrandFatherName')");
+	
+
+
+	
+?>
+
+
+
+</body>
+</html>
+
+,'$groomgrandmother','$groomgrandfather' ,'$groomfrom' ,'$bannermessage', 
+
+
+'$goodtitle' ,'$parntmessage' ,'$InvitationMessage','$MarriagePlace' ,'$MarriagePlaceAddress'
+
+ ,'$Phoneone','$Phonetwo' ,'$functionAddress' ,'$HomeAddress','$FamilyMemberTitle' ,'$FamilyMember1' 
+
+
+ ,'$FamilyMember2','$FamilyMember3' ,'$FamilyMember4' ,'$FamilyMember5','$Email'
+
+
+upper bali
+
+
+,grand_fathername,groomgrand_mothername ,groom_from, banner_message, god_title ,parent_message,invitation_message  marriage_place , phone_onephone_two  function_titleday_date, function_address,home_address,
+	    familymember_title,family_member1 family_members2,family_members3,family_members4,family_members5, email
+
+
+
+
+
+
+
+
+		
+$sql ="INSERT INTO tbl_users(bride_name ,bridefather_Name ,bridemother_name,bridegrand_mothername ,  bridegrand_fathername,  bride_from,groom_name,groomfather_name , groommother_name)
+
+value('$brideName','$bridefather' ,'$bridemother' ,'$bridegrandmother' ,'$birdegrandfather','$bridefrom' ,'$groomname','$groomfathername' ,'$groommothername')";`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg"  id="btnmodal" >Open Modal  </button>
+
+<div id="tmpmodal"></div>
+  
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+$(document).ready(function(e){
+
+
+$('#btnmodal').click(function(){
+
+
+    $.post('modal2.html',function(){
+
+    
+       $('#tmpmodal').html()
+
+        $('#myModal') .modal('show');
+    
+
+    })
+})
+
+});
+
+</script>
+
+</html>
+<?php
+	
+	$stmt = $DB_con->prepare('SELECT userID,email,groomname,bride_name,bridefather_Name,bridemother_name,bridegrand_fathername,
+        bridegrand_mothername,
+	bride_from,groom_name,groom_photo,groomfather_name,groommother_name,grand_fathername,groomgrand_mothername,
+	groom_from,banner_message,god_title,parent_message,invitation_message,marriage_place,marriage_placeaddress,family_members,
+	phone_one,phone_two,card_upload,function_title,day_date,function_address,home_address,familymember_title,family_member1,
+	family_members2,family_members3,family_members4,family_members5 ,time,familymember6 ,function2, function3,function4   
+      FROM tbl_users ORDER BY userID DESC limit 0,1')
+
+
+      ;
+     INNER JOIN login ON tbl_users.userID=login.id);
+
+
+
+     "<?php echo 'images/'.$bride_photo; ?>"

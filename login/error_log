@@ -1,0 +1,1 @@
+[08-Dec-2017 11:18:25 Etc/GMT] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/webdeqgk/public_html/event/login/user.php on line 13

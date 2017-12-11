@@ -1,0 +1,22 @@
+
+        $("#bdate").html(WeddingDate);
+        $("#bname").html(Bridename);
+        $("#bfname").html(brideFatherName);
+        $("#bmname").html(brideMotherName);
+        $("#bgfname").html(brideGrandFatherName);
+        $("#bgmname").html(brideGrandMotheName);
+        $("#bfrom").html(bridegroomFrom);
+
+        $.ajax({
+            url: '../wedding1/insert.php',
+            type: "POST",
+            data: {'GrandFatherName':GrandFatherName,'MotherName':MotherName},
+            success: function(data) {
+                
+            },
+
+        });
+
+            
+
+        }

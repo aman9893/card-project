@@ -1,0 +1,87 @@
+[08-Dec-2017 11:22:22 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:22:25 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:24:32 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:24:33 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:24:33 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:24:44 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:25:20 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:27:30 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:27:34 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 11:27:42 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tbl_users.user_id' in 'on clause' in /home/webdeqgk/public_html/event/wedding1/view.php:38
+Stack trace:
+#0 /home/webdeqgk/public_html/event/wedding1/view.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/webdeqgk/public_html/event/wedding1/view.php on line 38
+[08-Dec-2017 11:27:59 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 11:30:53 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 11:30:59 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 11:31:07 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 11:39:14 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 11:39:51 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 11:40:24 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 11:40:29 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 11:40:30 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 11:44:17 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 11:52:20 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:02:01 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:02:31 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:02:36 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:03:07 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:03:16 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:03:26 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:04:41 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 12:05:19 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:10:08 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:10:20 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:10:31 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:10:37 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:11:32 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:35:49 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:36:05 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 12:50:08 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:50:22 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/buy.php on line 309
+[08-Dec-2017 12:51:02 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[08-Dec-2017 12:51:43 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[08-Dec-2017 13:01:10 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[09-Dec-2017 06:52:24 Etc/GMT] PHP Notice:  Undefined index: user_id in /home/webdeqgk/public_html/event/wedding1/index.php on line 6
+[09-Dec-2017 06:54:20 Etc/GMT] PHP Notice:  Undefined index: use[09-Dec-2017 07:14:29 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[09-Dec-2017 07:14:33 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[09-Dec-2017 07:23:49 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[09-Dec-2017 07:24:46 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[09-Dec-2017 07:25:46 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[09-Dec-2017 07:26:39 Etc/GMT] PHP Notice:  Undefined variable: card_img in /home/webdeqgk/public_html/event/wedding1/view.php on line 323
+[11-Dec-2017 05:16:49 Etc/GMT] PHP Notice:  Undefined index: sessData in /home/webdeqgk/public_html/event/wedding1/view.php on line 33
+[11-Dec-2017 05:42:59 Etc/GMT] PHP Notice:  Undefined index: sessData in /home/webdeqgk/public_html/event/wedding1/payment.php on line 18
+[11-Dec-2017 07:16:21 Etc/GMT] PHP Notice:  Undefined index: sessData in /home/webdeqgk/public_html/event/wedding1/buy.php on line 19
