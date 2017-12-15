@@ -1,0 +1,117 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Dec 15, 2017 at 06:22 AM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.1.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `testdb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_users`
+--
+
+CREATE TABLE `tbl_users` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `family_members` varchar(255) NOT NULL,
+  `family_member1` varchar(255) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `groomname` varchar(255) NOT NULL,
+  `bride_name` varchar(255) NOT NULL,
+  `bride_photo` varchar(255) NOT NULL,
+  `bridefather_Name` varchar(255) NOT NULL,
+  `bridemother_name` varchar(255) NOT NULL,
+  `bridegrand_fathername` varchar(255) NOT NULL,
+  `bridegrand_mothername` varchar(255) NOT NULL,
+  `bride_from` varchar(255) NOT NULL,
+  `groom_name` varchar(255) NOT NULL,
+  `groom_photo` varchar(255) NOT NULL,
+  `groomfather_name` varchar(255) NOT NULL,
+  `groommother_name` varchar(255) NOT NULL,
+  `grand_fathername` varchar(255) NOT NULL,
+  `groomgrand_mothername` varchar(255) NOT NULL,
+  `groom_from` varchar(255) NOT NULL,
+  `banner_message` text NOT NULL,
+  `god_title` varchar(255) NOT NULL,
+  `parent_message` text NOT NULL,
+  `invitation_message` text NOT NULL,
+  `marriage_place` varchar(255) NOT NULL,
+  `marriage_placeaddress` varchar(255) NOT NULL,
+  `phone_one` varchar(255) NOT NULL,
+  `phone_two` varchar(255) NOT NULL,
+  `card_upload` varchar(255) NOT NULL,
+  `function_photo` varchar(255) NOT NULL,
+  `function_title` varchar(255) NOT NULL,
+  `day_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `time` varchar(255) NOT NULL,
+  `function_address` varchar(255) NOT NULL,
+  `home_address` varchar(255) NOT NULL,
+  `familymember_title` varchar(255) NOT NULL,
+  `family_members2` varchar(255) NOT NULL,
+  `family_members3` varchar(255) NOT NULL,
+  `family_members4` varchar(255) NOT NULL,
+  `family_members5` varchar(255) NOT NULL,
+  `familymember6` varchar(255) NOT NULL,
+  `function2` varchar(255) NOT NULL,
+  `function3` varchar(255) NOT NULL,
+  `function4` varchar(255) NOT NULL,
+  `card_img2` varchar(255) NOT NULL,
+  `card_img3` varchar(255) NOT NULL,
+  `card_img4` varchar(255) NOT NULL,
+  `function_photo2` varchar(255) NOT NULL,
+  `function_photo3` varchar(255) NOT NULL,
+  `function_photo4` varchar(255) NOT NULL,
+  `addby` varchar(255) NOT NULL,
+  `rand` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_users`
+--
+
+INSERT INTO `tbl_users` (`id`, `user_id`, `family_members`, `family_member1`, `email`, `groomname`, `bride_name`, `bride_photo`, `bridefather_Name`, `bridemother_name`, `bridegrand_fathername`, `bridegrand_mothername`, `bride_from`, `groom_name`, `groom_photo`, `groomfather_name`, `groommother_name`, `grand_fathername`, `groomgrand_mothername`, `groom_from`, `banner_message`, `god_title`, `parent_message`, `invitation_message`, `marriage_place`, `marriage_placeaddress`, `phone_one`, `phone_two`, `card_upload`, `function_photo`, `function_title`, `day_date`, `time`, `function_address`, `home_address`, `familymember_title`, `family_members2`, `family_members3`, `family_members4`, `family_members5`, `familymember6`, `function2`, `function3`, `function4`, `card_img2`, `card_img3`, `card_img4`, `function_photo2`, `function_photo3`, `function_photo4`, `addby`, `rand`) VALUES
+(34, 0, '', '', 'vfdv', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2017-12-15 04:53:22', '1 January, 1970', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `tbl_users`
+--
+ALTER TABLE `tbl_users`
+  ADD PRIMARY KEY (`email`),
+  ADD UNIQUE KEY `userID` (`id`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tbl_users`
+--
+ALTER TABLE `tbl_users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
